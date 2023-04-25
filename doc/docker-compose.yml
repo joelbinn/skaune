@@ -1,0 +1,10 @@
+version: '3.9'
+name: skaune-structurizr
+services:
+  structurizr:
+    image: structurizr/lite:latest
+    ports:
+      - "24242:8080"
+    volumes:
+      - ./structurizr:/usr/local/structurizr
+

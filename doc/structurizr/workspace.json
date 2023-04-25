@@ -1,0 +1,277 @@
+{
+  "id" : 1,
+  "name" : "Skaune",
+  "description" : "Detta är en modell för Skaune",
+  "lastModifiedDate" : "2023-04-25T21:29:36Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "LyoKICogLSAiRFNMIiAtICJEU0wiIChodHRwczovL2dpdGh1Yi5jb20vc3RydWN0dXJpenIvZHNsKQoqLwoKd29ya3NwYWNlICJTa2F1bmUiICJEZXR0YSDDpHIgZW4gbW9kZWxsIGbDtnIgU2thdW5lIiB7CiAgICAhZG9jcyBkb2NzCiAgICAhYWRycyBhZHJzCgogICAgbW9kZWwgewogICAgICAgIGFkbWluVXNlciA9IHBlcnNvbiAiU3lzdGVtYWRtaW5hc3RyYXTDtnIiICJBbnbDpG5kZXIgYXBwbGlrYXRpb25lbiBmw7ZyIGF0dCBoYW50ZXJhIFNrYXVuZSIKCiAgICAgICAgZW50ZXJwcmlzZSAiU2thdW5lIiB7CiAgICAgICAgICAgIHNrYXVuZSA9IHNvZnR3YXJlU3lzdGVtICJTa2F1bmUiICJTa2F1bmUgw6RyIGVuIGFwcGxpa2F0aW9uIGbDtnIgYXR0IGhhbnRlcmEgU2thdW5lIiB7CiAgICAgICAgICAgICAgICBhcGlHYXRld2F5ID0gY29udGFpbmVyICJBUEkgR2F0ZXdheSIgIkVkZ2Ugc2VydmljZSIKICAgICAgICAgICAgICAgIGRyb3Bib3hHYXRld2F5ID0gY29udGFpbmVyICJEcm9wYm94IEdhdGV3YXkiICJHYXRld2F5IHRvIERyb3Bib3giICJkb3duc3RyZWFtLWdhdGV3YXkiIHsKICAgICAgICAgICAgICAgICAgICBkcm9wYm94Q29udHJvbGxlciA9IGNvbXBvbmVudCAiRHJvcGJveENvbnRyb2xsZXIiICJSRVNUIENvbnRyb2xsZXIgdGhhdCBhY2Nlc3NlcyBEcm9wYm94IgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHVzZXJJbnRlcmZhY2UgPSBjb250YWluZXIgIlVzZXIgSW50ZXJmYWNlIiAiVXNlciBJbnRlcmZhY2UiICJTUEEiCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGRyb3Bib3ggPSBzb2Z0d2FyZVN5c3RlbSAiRHJvcGJveCIgIkRyb3Bib3ggU2FhUyIgImV4dGVybmFsLXN5c3RlbSIKCiAgICAgICAgYWRtaW5Vc2VyIC0+IHVzZXJJbnRlcmZhY2UKICAgICAgICB1c2VySW50ZXJmYWNlIC0+IGFwaUdhdGV3YXkKICAgICAgICBhcGlHYXRld2F5IC0+IGRyb3Bib3hDb250cm9sbGVyCiAgICAgICAgZHJvcGJveEdhdGV3YXkgLT4gZHJvcGJveAogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgLy9hdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1jb250ZXh0IHNrYXVuZSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAvL2F1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBza2F1bmUgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgLy9hdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYXBpR2F0ZXdheSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAvL2F1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB1c2VySW50ZXJmYWNlIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIC8vYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGRyb3Bib3hHYXRld2F5IHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIC8vYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Skaune"
+    },
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "adminuser"
+      },
+      "name" : "Systemadminastratör",
+      "description" : "Använder applikationen för att hantera Skaune",
+      "relationships" : [ {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6"
+      }, {
+        "id" : "9",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "linkedRelationshipId" : "8"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "7",
+      "tags" : "Element,Software System,external-system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dropbox"
+      },
+      "name" : "Dropbox",
+      "description" : "Dropbox SaaS",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "skaune"
+      },
+      "name" : "Skaune",
+      "description" : "Skaune är en applikation för att hantera Skaune",
+      "relationships" : [ {
+        "id" : "14",
+        "sourceId" : "2",
+        "destinationId" : "7",
+        "linkedRelationshipId" : "13"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "userinterface"
+        },
+        "name" : "User Interface",
+        "description" : "User Interface",
+        "relationships" : [ {
+          "id" : "10",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "3"
+        } ],
+        "technology" : "SPA",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dropboxgateway"
+        },
+        "name" : "Dropbox Gateway",
+        "description" : "Gateway to Dropbox",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "7"
+        } ],
+        "technology" : "downstream-gateway",
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "dropboxcontroller"
+          },
+          "name" : "DropboxController",
+          "description" : "REST Controller that accesses Dropbox",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "apigateway"
+        },
+        "name" : "API Gateway",
+        "description" : "Edge service",
+        "relationships" : [ {
+          "id" : "12",
+          "sourceId" : "3",
+          "destinationId" : "4",
+          "linkedRelationshipId" : "11"
+        }, {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "5"
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "title" : "1-skaune.description.md",
+      "content" : "Skaune\n---------\nBeskriv Skaune övergripande...\n",
+      "format" : "Markdown",
+      "filename" : "1-skaune.description.md",
+      "order" : 1
+    } ]
+  },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape-001",
+      "order" : 1,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 2016
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 354,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 329,
+        "y" : 908
+      }, {
+        "id" : "7",
+        "x" : 329,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "9"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 2016
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 354,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 329,
+        "y" : 908
+      }, {
+        "id" : "7",
+        "x" : 329,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "9"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 3,
+      "softwareSystemId" : "2",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 705,
+        "y" : 155
+      }, {
+        "id" : "3",
+        "x" : 685,
+        "y" : 1250
+      }, {
+        "id" : "4",
+        "x" : 1345,
+        "y" : 1250
+      }, {
+        "id" : "6",
+        "x" : 685,
+        "y" : 785
+      }, {
+        "id" : "7",
+        "x" : 2020,
+        "y" : 1250
+      } ],
+      "relationships" : [ {
+        "id" : "13"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-003",
+      "order" : 6,
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1420
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 329,
+        "y" : 208
+      }, {
+        "id" : "5",
+        "x" : 329,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "11"
+      } ]
+    }, {
+      "key" : "Component-002",
+      "order" : 5,
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true
+    }, {
+      "key" : "Component-001",
+      "order" : 4,
+      "containerId" : "3",
+      "externalContainerBoundariesVisible" : true
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Container-001"
+    }
+  }
+}
